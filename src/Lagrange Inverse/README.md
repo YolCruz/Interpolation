@@ -22,13 +22,13 @@ WID = 15
 HEI =10
 ```
 
-In this problem, our variable *x* is the time and *y* is the velocity
+In this problem, our variable **x** is the time and **y** is the velocity
 ```
 x = np.array([0.0, 1.0, 1.5, 2.0])
 y = np.array([2.5, 3.8, 4.6, 5.3])
 ```
 
-Now we need to declare the points that are going to be evaluated in the function. These are the points that appear as *y* in the formula:
+Now we need to declare the points that are going to be evaluated in the function. These are the points that appear as **y** in the formula:
 
 <center>
 
