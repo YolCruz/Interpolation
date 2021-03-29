@@ -56,7 +56,7 @@ graf(y,x,p,pol,WID,HEI)
 
 <center>
 
-![Inverse Lagrange interpolation](../../images/Lagrange%20inverse/Example1_plot.png)
+![Inverse Lagrange interpolation](../../images/Lagrange%20inverse/Example1_LagInv.png)
 
 </center>
 

@@ -1,6 +1,5 @@
 #%%
-import numpy as np
-from Lagrange import lagrange, graf
+from Lagrange import lagrange, graf, np
 
 WID = 15
 HEI =10

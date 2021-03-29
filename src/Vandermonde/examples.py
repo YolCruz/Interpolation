@@ -1,7 +1,6 @@
 #%%
-import numpy as np
 import matplotlib.pyplot as plt
-from Vandermonde import vandermonde, Ruffini
+from Vandermonde import vandermonde, Ruffini, np
 #%%
 WID = 15
 HEI =10
