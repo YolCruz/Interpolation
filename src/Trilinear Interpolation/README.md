@@ -13,7 +13,7 @@ With 50 evenly spaced points. First we import the interpolation funtions writen 
 ```
 from Bilinear import bilinear, np
 from Lagrange import lagrange3D
-from ploting import graf, anim
+from plotting import graf, anim
 
 WID = 15
 HEI = 10
