@@ -21,20 +21,61 @@ Y, X = np.meshgrid(vectx, vecty)
 Z = bilinear(x,y,z,vectx,vecty)
 # %%
 sp="../../images/Trilinear interpolation/Example1_bilinear.jpg"
-graf(X1, Y1, z, X, Y, Z, WID, HEI, title="Bilinear", save_path=sp, font_size=20.0, pad=20.0, ty=1)
-#graf(X1, Y1, z, X, Y, Z, WID, HEI, title="Bilinear", font_size=20.0, pad=20.0, ty=1)
+graf(
+    X1, Y1, z, 
+    X, Y, Z, 
+    WID, HEI, 
+    title="Bilinear", 
+    save_path=sp, 
+    font_size=20.0, 
+    pad=20.0, 
+    ty=1
+)
 #%%
 sp_a="../../images/Trilinear interpolation/Example1_bilinear_animation.gif"
-anim(X1, Y1, z, X, Y, Z, WID, HEI, frames=200, title="Bilinear", save_path=sp_a, interval=50, font_size=20.0, pad=20.0, ty=1)
 
-# %%
+anim(
+    X1, Y1, z, 
+    X, Y, Z, 
+    WID, HEI, 
+    frames=200, 
+    title="Bilinear", 
+    save_path=sp_a, 
+    interval=50, 
+    font_size=20.0, 
+    pad=20.0, 
+    ty=1
+)
+#%%
+# --------------------------------------
+
 # Lagrange
 Z = lagrange3D(x,y,z, vectx, vecty)
-# %%
+#%%
 sp="../../images/Trilinear interpolation/Example1_lagrange.jpg"
-graf(X1, Y1, z, X, Y, Z, WID, HEI, title="Lagrange", save_path=sp, font_size=20.0, pad=20.0, ty=1)
-# %%
+
+graf(
+    X1, Y1, z, 
+    X, Y, Z, 
+    WID, HEI, 
+    title="Lagrange", 
+    save_path=sp, 
+    font_size=20.0, 
+    pad=20.0, 
+    ty=1
+)
+#%%
 sp_a="../../images/Trilinear interpolation/Example1_lagrange_animation.gif"
 
-anim(X1, Y1, z, X, Y, Z, WID, HEI, frames=200, title="Lagrange", save_path=sp_a, interval=50, font_size=20.0, pad=20.0, ty=1)
-# %%
+anim(
+    X1, Y1, z, 
+    X, Y, Z, 
+    WID, HEI, 
+    frames=300, 
+    title="Lagrange", 
+    save_path=sp_a, 
+    interval=50, 
+    font_size=20.0, 
+    pad=20.0, 
+    ty=1
+)
